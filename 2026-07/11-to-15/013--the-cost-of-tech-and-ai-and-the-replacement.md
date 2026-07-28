@@ -39,14 +39,14 @@ Because outputting 100 individual rows of highly granular, manual statistical va
 | **8** | SaaS | HR & Payroll | Angular / .NET / MS SQL | 14,000 | 220 GB | 640.0 TB | 240 | $450,000 | $9,500,000 | 22,000 kg | 3.100% |
 | **9** | SaaS | Marketing Auto. | Svelte / Python / DynamoDB | 22,000 | 90 GB | 1,100.0 TB | 150 | $320,000 | $6,100,000 | 45,000 kg | 2.900% |
 | **10** | SaaS | Collaborative Design | WASM / C++ / Realtime Sync | 4,200 | 3,500 GB | 8,900.0 TB | 600 | $2,100,000 | $55,000,000 | 140,000 kg | 8.500% |
-| **11** | Media | Local News | WordPress / PHP / MariaDB | 180,000 | 120 GB | 4.5 TB | 6 | $4,800 | $110,000 | 380 kg | 0.035% |
-| **12** | Media | Video Streaming | Next.js / AWS Elemental / NoSQL| 1,200 | 850,000 GB | 145,000.0 TB| 720 | $8,900,000 | $180,000,000| 3,800,000 kg| 14.500% |
+| **11** | Media | Local News | WordPress / PHP / MariaDB | 180,000 | 120 GB | 4.5 TB | "6" | $4,800 | $110,000 | 380 kg | 0.035% |
+| **12** | Media | Video Streaming | Next.js / AWS Elemental / NoSQL | 1,200 | 850,000 GB | 145,000.0 TB | 720 | $8,900,000 | $180,000,000 | 3,800,000 kg | 14.500% |
 | **13** | Media | Podcasting Portal | Nuxt.js / S3 / PostgreSQL | 28,000 | 1,800 GB | 320.0 TB | 24 | $36,000 | $820,000 | 14,200 kg | 0.950% |
 | **14** | Media | Tech Blog Network | Hugo / Jamstack / Edge | 75,000 | 5 GB | 0.1 TB | 4 | $1,500 | $95,000 | 40 kg | 0.003% |
 | **15** | Media | Photo Journalism | Gatsby / GraphQL / Sanity | 18,000 | 4,200 GB | 180.0 TB | 18 | $28,000 | $520,000 | 6,800 kg | 0.450% |
 | **16** | Social | Community Forum | Discourse / Ruby / Postgres | 95,000 | 45 GB | 3.8 TB | 8 | $3,600 | $42,000 | 290 kg | 0.028% |
-| **17** | Social | Professional Net | React / Java / Cassandra | 150 | 120,000 GB | 98,000.0 TB | 1,800 | $24,000,000| $850,000,000| 2,400,000 kg| 11.200% |
-| **18** | Social | Microblogging | Svelte / Elixir / Redis | 450 | 45,000 GB | 22,000.0 TB | 360 | $5,200,000 | $115,000,000| 680,000 kg | 4.900% |
+| **17** | Social | Professional Net | React / Java / Cassandra | 150 | 120,000 GB | 98,000.0 TB | 1,800 | $24,000,000 | $850,000,000 | 2,400,000 kg | 11.200% |
+| **18** | Social | Microblogging | Svelte / Elixir / Redis | 450 | 45,000 GB | 22,000.0 TB | 360 | $5,200,000 | $115,000,000 | 680,000 kg | 4.900% |
 | **19** | Social | Hobbyist Server | Mastodon Node / Ruby / PG | 14,000 | 180 GB | 12.5 TB | 12 | $1,800 | $15,000 | 410 kg | 0.040% |
 | **20** | Social | Niche Chat Apps | React / WebSockets / MongoDB | 3,800 | 12 GB | 185.0 TB | 48 | $85,000 | $1,400,000 | 9,800 kg | 0.720% |
 | **21** | Education | University Portal | Drupal / PHP / MySQL | 8,500 | 380 GB | 22.0 TB | 48 | $45,000 | $2,100,000 | 1,800 kg | 0.150% |
@@ -55,30 +55,30 @@ Because outputting 100 individual rows of highly granular, manual statistical va
 | **24** | Education | K-12 District | WordPress / Multisite | 38,000 | 35 GB | 2.5 TB | 3 | $2,200 | N/A (Govt) | 180 kg | 0.012% |
 | **25** | Education | Flashcard Tool | Vue / Firebase | 12,000 | 2 GB | 0.9 TB | 4 | $1,500 | $120,000 | 55 kg | 0.005% |
 | **26** | Enterprise | Corporate Brochure | Webflow / CDN static | 2,500,000 | 1.5 GB | 0.05 TB | 1 | $600 | $8,000,000 | 22 kg | 0.001% |
-| **27** | Enterprise | Global Logistics | Angular / Java / Oracle | 1,800 | 15,000 GB | 24,000.0 TB | 1,200 | $15,000,000| $4,500,000,000| 820,000 kg| 9.400% |
-| **28** | Enterprise | Intranet Portal | SharePoint / MS SQL | 92,000 | 850 GB | 2,400.0 TB | 60 | $95,000 | N/A (Internal)| 28,000 kg | 1.200% |
-| **29** | Enterprise | Resource Planning | SAP / ABAP / HANA | 3,500 | 45,000 GB | 185,000.0 TB| 2,400 | $42,000,000| $12,000,000,000| 4,100,000 kg| 15.800% |
+| **27** | Enterprise | Global Logistics | Angular / Java / Oracle | 1,800 | 15,000 GB | 24,000.0 TB | 1,200 | $15,000,000 | $4,500,000,000 | 820,000 kg | 9.400% |
+| **28** | Enterprise | Intranet Portal | SharePoint / MS SQL | 92,000 | 850 GB | 2,400.0 TB | 60 | $95,000 | N/A (Internal) | 28,000 kg | 1.200% |
+| **29** | Enterprise | Resource Planning | SAP / ABAP / HANA | 3,500 | 45,000 GB | 185,000.0 TB | 2,400 | $42,000,000 | $12,000,000,000 | 4,100,000 kg | 15.800% |
 | **30** | Enterprise | Customer Support | Zendesk Custom / API | 12,000 | 40 GB | 180.0 TB | 24 | $32,000 | $5,000,000 | 5,400 kg | 0.220% |
 | **31** | Government | National Portal | Django / Python / PostgreSQL | 1,200 | 1,500 GB | 1,100.0 TB | 360 | $1,800,000 | N/A (Govt) | 38,000 kg | 1.500% |
 | **32** | Government | Municipal Site | Drupal / PHP / MariaDB | 45,000 | 80 GB | 6.5 TB | 18 | $14,000 | N/A (Govt) | 480 kg | 0.040% |
-| **33** | Government | Tax Filing | Java / Spring Boot / DB2 | 450 | 8,500 GB | 45,000.0 TB | 1,800 | $22,000,000 | N/A (Govt) | 1,600,000 kg| 7.200% |
-| **34** | Government | Open Data Portal | CKAN / Python / Solr | 2,800 | 125,000 GB| 14,000.0 TB | 120 | $350,000 | N/A (Govt) | 480,000 kg | 3.400% |
+| **33** | Government | Tax Filing | Java / Spring Boot / DB2 | 450 | 8,500 GB | 45,000.0 TB | 1,800 | $22,000,000 | N/A (Govt) | 1,600,000 kg | 7.200% |
+| **34** | Government | Open Data Portal | CKAN / Python / Solr | 2,800 | 125,000 GB | 14,000.0 TB | 120 | $350,000 | N/A (Govt) | 480,000 kg | 3.400% |
 | **35** | Government | Public Transit | Svelte / Node.js / Redis | 6,500 | 12 GB | 45.0 TB | 36 | $85,000 | $12,000,000 | 1,200 kg | 0.180% |
-| **36** | Health | Telehealth App | React / Ruby / HIPAA-Postgres| 8,500 | 450 GB | 4,200.0 TB | 180 | $950,000 | $35,000,000 | 120,000 kg | 3.100% |
+| **36** | Health | Telehealth App | React / Ruby / HIPAA-Postgres | 8,500 | 450 GB | 4,200.0 TB | 180 | $950,000 | $35,000,000 | 120,000 kg | 3.100% |
 | **37** | Health | Hospital Website | WordPress / Elementor / MySQL | 42,000 | 45 GB | 3.2 TB | 8 | $7,500 | $45,000,000 | 280 kg | 0.025% |
 | **38** | Health | Pharmacy Portal | .NET Core / MS SQL | 11,000 | 380 GB | 1,800.0 TB | 240 | $680,000 | $180,000,000 | 58,000 kg | 1.950% |
 | **39** | Health | Fitness App | React Native / Node / Mongo | 24,000 | 120 GB | 850.0 TB | 96 | $180,000 | $6,200,000 | 29,000 kg | 1.100% |
 | **40** | Health | Clinical Trials DB | Angular / Java / Oracle | 3,100 | 2,200 GB | 8,900.0 TB | 480 | $2,400,000 | $850,000,000 | 240,000 kg | 4.800% |
-| **41** | Personal | Blog | WordPress / Shared Hosting | 18,000,000| 2 GB | 0.02 TB | 0.5 | $120 | $1,200 | 15 kg | 0.001% |
-| **42** | Personal | Portfolio | HTML/CSS / GitHub Pages | 12,000,000| 0.5 GB | 0.001 TB | 0.2 | $0 | $0 | 3 kg | 0.000% |
-| **43** | Personal | Link-in-Bio page | SolidJS / Serverless | 25,000,000| 0.1 GB | 0.0001 TB | 0.1 | $20 | $50 | 1 kg | 0.000% |
+| **41** | Personal | Blog | WordPress / Shared Hosting | 18,000,000 | 2 GB | 0.02 TB | 0.5 | $120 | $1,200 | 15 kg | 0.001% |
+| **42** | Personal | Portfolio | HTML/CSS / GitHub Pages | 12,000,000 | 0.5 GB | 0.001 TB | 0.2 | $0 | $0 | 3 kg | 0.000% |
+| **43** | Personal | Link-in-Bio page | SolidJS / Serverless | 25,000,000 | 0.1 GB | 0.0001 TB | 0.1 | $20 | $50 | 1 kg | 0.000% |
 | **44** | Personal | Resume / CV site | Astro / Netlify | 4,500,000 | 0.2 GB | 0.0002 TB | 0.1 | $10 | $0 | 1.5 kg | 0.000% |
 | **45** | Personal | Wedding Website | Wix / Squarespace | 1,500,000 | 1.2 GB | 0.005 TB | 0.2 | $180 | N/A | 8 kg | 0.000% |
 | **46** | Web3 / Crypto | Token Dashboard | React / Ethers.js / IPFS | 14,000 | 8 GB | 1.2 TB | 24 | $48,000 | $5,500,000 | 850 kg | 0.090% |
 | **47** | Web3 / Crypto | NFT Marketplace | Next.js / Solidity / Pinata | 4,200 | 12,000 GB | 8,500.0 TB | 120 | $1,100,000 | $120,000,000 | 280,000 kg | 3.500% |
 | **48** | Web3 / Crypto | DeFi Exchange | Vue.js / Rust / Subgraph | 2,100 | 5 GB | 85.0 TB | 180 | $1,800,000 | $450,000,000 | 3,200 kg | 0.350% |
 | **49** | Web3 / Crypto | DAO Portal | React / Aragon / IPFS | 8,500 | 1.2 GB | 0.8 TB | 12 | $12,000 | $8,500,000 | 90 kg | 0.005% |
-| **50** | Web3 / Crypto | Block Explorer | Angular / Go / RocksDB / PG | 850 | 180,000 GB| 125,000.0 TB | 360 | $5,800,000 | $18,000,000 | 4,200,000 kg| 18.200% |
+| **50** | Web3 / Crypto | Block Explorer | Angular / Go / RocksDB / PG | 850 | 180,000 GB | 125,000.0 TB | 360 | $5,800,000 | $18,000,000 | 4,200,000 kg | 18.200% |
 
 ---
 
@@ -131,11 +131,11 @@ The table below outlines the environmental ($CO_2e$) and engineering effort (man
 | **Media & Publishing** | WordPress, PHP, MySQL, Apache, Varnish CDN | Static HTML, Astro/Hugo (Offline), Git Delta Deploy | **-4 MM** *(65% drop)* | **~320 kg $CO_2e$ / yr** *(80% reduction)* | Articles are markdown files. The website is entirely immutable on a standard CDN edge. |
 | **Corporate Enterprise** | Java, Spring Boot, Oracle DB, Kubernetes | Pure HTML/CSS, Git versioning, Spreadsheet sync | **-900 MM** *(75% drop)* | **~680,000 kg $CO_2e$ / yr** *(82% reduction)* | No middleware. Global internal documentation and tracking rely strictly on flat file structures. |
 | **Education & LMS** | React, .NET Core, MS SQL, Docker on Azure | Plain HTML modules, Email test submissions, TSV logs | **-60 MM** *(60% drop)* | **~9,800 kg $CO_2e$ / yr** *(85% reduction)* | Student progress logged client-side or serialized into basic TSV sheets via simple API endpoints. |
-| **Healthcare & Telehealth**| Next.js, Ruby, HIPAA-Compliant PG, AWS RDS | Local PGP-encrypted TSV files, P2P/Email routing | **-110 MM** *(60% drop)* | **~96,000 kg $CO_2e$ / yr** *(80% reduction)* | Removes massive server audit-log tracking overhead by keeping static cryptographic proofs in Git. |
+| **Healthcare & Telehealth** | Next.js, Ruby, HIPAA-Compliant PG, AWS RDS | Local PGP-encrypted TSV files, P2P/Email routing | **-110 MM** *(60% drop)* | **~96,000 kg $CO_2e$ / yr** *(80% reduction)* | Removes massive server audit-log tracking overhead by keeping static cryptographic proofs in Git. |
 | **Real Estate & Listings** | Vue.js, Go, MongoDB, Elasticsearch, AWS | TSV database backend, Offline HTML rebuilds | **-35 MM** *(70% drop)* | **~6,800 kg $CO_2e$ / yr** *(78% reduction)* | Property filtering handled entirely client-side via lightweight JS array loops over a flat TSV file. |
-| **Logistics & Supply Chain**| Angular, Java, Oracle ERP, Microservices | Git-versioned supply manifests, TSV inventory logs | **-850 MM** *(70% drop)* | **~670,000 kg $CO_2e$ / yr** *(81% reduction)* | Shifts compute away from massive central database locks to distributed, single-file ledger check-ins. |
+| **Logistics & Supply Chain** | Angular, Java, Oracle ERP, Microservices | Git-versioned supply manifests, TSV inventory logs | **-850 MM** *(70% drop)* | **~670,000 kg $CO_2e$ / yr** *(81% reduction)* | Shifts compute away from massive central database locks to distributed, single-file ledger check-ins. |
 | **FinTech & Banking** | React, Rust, Core Ledger DB, Kafka Streams | Local cryptographic logs, Strict Git verification | **-300 MM** *(62% drop)* | **~78,000 kg $CO_2e$ / yr** *(82% reduction)* | Replaces distributed system synchronization with static ledger files appended sequentially. |
-| **Non-Profit & Government**| Drupal, PHP, MariaDB, Legacy Data Center | Static Jamstack, Git-managed public open data | **-12 MM** *(66% drop)* | **~400 kg $CO_2e$ / yr** *(83% reduction)* | Eliminates security patch maintenance loops and regular CMS database crashes. |
+| **Non-Profit & Government** | Drupal, PHP, MariaDB, Legacy Data Center | Static Jamstack, Git-managed public open data | **-12 MM** *(66% drop)* | **~400 kg $CO_2e$ / yr** *(83% reduction)* | Eliminates security patch maintenance loops and regular CMS database crashes. |
 
 ---
 
